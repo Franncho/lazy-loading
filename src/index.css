@@ -1,3 +1,26 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.buttonAdd{
+    background-color: blue;
+    border-radius: 2px;
+    padding: 3px;
+    color: aliceblue;
+}
+.buttonClear{
+    background-color: rgb(168, 30, 53);
+    border-radius: 2px;
+    padding: 3px;
+    margin: 10px;
+    color: aliceblue;
+}
+.parrafo{
+    color: gray;
+    font-size: 1.25rem; 
+    line-height: 1.75rem;
+    margin-top: 1rem;
+    max-width: 42rem;
+    line-height: 1.75rem;
+    text-align: center;
+}
