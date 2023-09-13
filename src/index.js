@@ -19,3 +19,6 @@ const clean = document.querySelector("button[type='reset']");
 clean.addEventListener("click", () => {
   imageContainer.innerHTML = "";
 });
+
+
+

@@ -43,3 +43,22 @@ body{
 .buttonClear:hover{
     background-color: rgba(97, 0, 0, 0.979);
 }
+
+#images {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr); /* Definir 3 columnas */
+}
+
+
+#images div {  /* Estilo para el contenedor de la imagen */
+    width: 320px;
+    height: 320px; /* Definir un tamaño fijo para las imágenes */
+    overflow: hidden; /* Ocultar cualquier imagen que sobresalga */
+}
+
+#images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajustar la imagen para que llene su contenedor */
+}
