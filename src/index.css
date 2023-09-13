@@ -6,23 +6,27 @@ body{
     background-color: rgb(147, 173, 173);
 }
 .buttonAdd{
-    background-color: aliceblue;
-    border-radius: 2px;
-    padding: 3px;
-    border-radius: 40px;
-    color: black;
-    font-size: 1em;
-    font-style: oblique;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
     
 }
 .buttonClear{
-    background-color: aliceblue;
-    border-radius: 40px;
-    padding: 3px;
-    margin: 10px;
-    color:black;
-    font-size: 1em;
-    font-style: oblique;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c00b1d;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
 }
 .parrafo{
     color: gray;
@@ -34,8 +38,8 @@ body{
     text-align: center;
 }
 .buttonAdd:hover{
-    background-color: rgba(16, 131, 167, 0.979);
+    background-color: rgba(33, 6, 151, 0.979);
 }
 .buttonClear:hover{
-    background-color: rgba(126, 33, 33, 0.979);
+    background-color: rgba(97, 0, 0, 0.979);
 }
